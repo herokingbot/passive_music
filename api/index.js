@@ -81,4 +81,3 @@ api.use("/", require("./routes"));
 module.exports = api;
 
 
-bot.login(process.env.token);
