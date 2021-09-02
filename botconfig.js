@@ -4,6 +4,7 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || "?", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/gH83sJP7Kv", //Support Server Link
+  Token: process.env.Token || "ODgxOTU5MzQzOTcxNTI4NzE0.YS0apQ.y_ZZwptuWViU_Y0fACaMsH_w1Bk", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "881959343971528714", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "UjsTm-MV-n0xEHgNmhnBGiOLSaU9rBhJ", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
